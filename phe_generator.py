@@ -1,10 +1,7 @@
-# Download the pyphe package 
-# using pip: 
-# $ pip install phe
-
 from phe import paillier
 import shamirs
 import random
+import constant as c
 
 def getKey(): # get public key and private key from pyphe package
     public_key, private_key = paillier.generate_paillier_keypair()
@@ -32,20 +29,20 @@ if __name__=='__main__':
     # Split each secret number
     shares_list = []
     combine_list = []
-    for num in encrypted_number_list:
-        shares_list.append(shamirs.shares(num, quantity=6, threshold=4, modulus=2**9689-1))
-    print(f'The secret number is splitted into 6 shares with threshold 4')
+    for i in encrypted_number_list:
+        shares_list.append(shamirs.shares(i, quantity=c.N, threshold=c.T, modulus=c.MODULUS))
+    print(f'The secret number is splitted into %d shares with threshold %d' % (c.N, c.T)) 
 
     # Pick random chunks in each secret number
     pick_list = []
-    for num in shares_list:
-        pick_list.append(random.sample(num, 4))
+    for i in shares_list:
+        pick_list.append(random.sample(i, c.T))
     print(f'Partial shares are picked')
 
     # Combine chunks in each secret number
     combine_list = []
-    for num in pick_list:
-        combine_list.append(shamirs.interpolate(num))
+    for i in pick_list:
+        combine_list.append(shamirs.interpolate(i))
     print(f'The shares are combined')
 
     # Decrypted
