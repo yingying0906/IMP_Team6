@@ -4,7 +4,6 @@
 
 from phe import paillier
 import shamirs
-import splitting
 import random
 
 def getKey(): # get public key and private key from pyphe package
