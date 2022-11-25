@@ -24,7 +24,8 @@ for i in pick_num:
 combine_s = shamirs.interpolate(pick_list)
 
 # write
-with open("temp/combined_" + str(num), "w") as f:
-    f.write(str(combine_s))
+with open("temp/combined_" + str(num), "wb") as f:
+    pickle.dump(combine_s, f)
+    
 
 print(f"The shares are combined")

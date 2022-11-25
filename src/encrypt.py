@@ -26,7 +26,7 @@ with open("temp/private","wb") as f:
 encrypted_number_list = lib.getEncryptedNumber(secret_number_list, public_key)
 
 # Write
-with open("temp/encrypted","w") as f:
-    f.write(str(encrypted_number_list))
+with open("temp/encrypted","wb") as f:
+    pickle.dump(encrypted_number_list, f)
 
 print(f"there are {len(encrypted_number_list)} numbers and their type is {type(encrypted_number_list[0])}")

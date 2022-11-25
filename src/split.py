@@ -6,11 +6,8 @@ import os
 import pickle
 
 # open file
-encrypted_number_list = []
-with open("temp/encrypted","r") as f:
-    res = f.read().strip("][").split(", ")
-    for i in res:
-        encrypted_number_list.append(int(i))
+with open("temp/encrypted","rb") as f:
+    encrypted_number_list = pickle.load(f)
 
 # split
 N, T = int(sys.argv[1]), int(sys.argv[2])

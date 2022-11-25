@@ -6,8 +6,8 @@ filename = sys.argv[1]
 combine_list = []
 
 # open combined file
-with open("temp/combined_" + filename, "r") as f:
-    combine_list.append(int(f.read()))
+with open("temp/combined_" + filename, "rb") as f:
+    combine_list.append(pickle.load(f))
 
 # open key
 with open("temp/public", "rb") as f:
