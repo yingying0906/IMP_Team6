@@ -91,7 +91,7 @@ sh remove.sh
 
 A demostration of complete process (encrypt, split, combine, decrypt)
 
-### test.sh
+### test2.sh
 
 A demostration of computation process (encrypt, split, combine, calculate)
 
