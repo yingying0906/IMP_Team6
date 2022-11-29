@@ -1,2 +1,2 @@
-rm -r share/*
-rm temp/*
+rm -r temp
+rm -r Database

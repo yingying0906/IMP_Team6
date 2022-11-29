@@ -4,19 +4,24 @@ import os
 import shamirs
 import pickle
 
-num = int(sys.argv[1]) # retrive which number
-pick = int(sys.argv[2]) # pick how many shares  
+# argument
+target_ID = sys.argv[1]
+target = sys.argv[2] # retrive which number
+pick = int(sys.argv[3]) # pick how many shares  
+
+# list
 file_list = []
 
 # Read all filename
-for filename in os.listdir("share/" + str(num)):
-        file_list.append(filename)
+num_shares = len(next(os.walk("database"))[1])
+for i in range(num_shares):
+    file_list.append(i)
 
 # randomly pick files
 pick_num = random.sample(range(0, len(file_list)), 5)
 pick_list = []
 for i in pick_num:
-    path = "share/" + str(num) + "/" + "share_" + str(i)
+    path = "database/DB_" + str(i) + "/" + target_ID + "_" + target + "_share_" + str(i)
     with open(path,"rb") as f:
         pick_list.append(pickle.load(f))
 
@@ -24,8 +29,9 @@ for i in pick_num:
 combine_s = shamirs.interpolate(pick_list)
 
 # write
-with open("temp/combined_" + str(num), "wb") as f:
+if not os.path.exists("combine"):
+    os.makedirs("combine")
+with open("combine/" + target_ID + "_combined_" + target, "wb") as f:
     pickle.dump(combine_s, f)
     
-
-print(f"The shares are combined")
+print(f"[ ID {target_ID} ] The shares of {target} are combined")

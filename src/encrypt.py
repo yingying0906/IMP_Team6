@@ -1,32 +1,46 @@
 import lib
 import sys
 import pickle
+import os
+
+# argument
+filename = sys.argv[1]
 
 # list
 secret_number_list = []
-filename = sys.argv[1]
+header_list = []
 
 # Open file
+if not os.path.exists("./data"):
+    os.makedirs("./data")
+
 with open("data/" + filename,"r") as f:
     fr = f.read()
-    s = fr.split(" ")
-    for i in s:
-        secret_number_list.append(int(i))
+    byline = fr.split("\n")
+    for i in byline:
+        byspace = i.split(" ")
+        if(byspace[0] == "ID"):
+            ID = byspace[1]
+        else:
+            header_list.append(byspace[0])
+            secret_number_list.append(int(byspace[1]))
 
-# Generate Key
-public_key, private_key = lib.getKey()
-
-# Write Key
-with open("temp/public","wb") as f:
-    pickle.dump(public_key, f)
-with open("temp/private","wb") as f:
-    pickle.dump(private_key, f)
+# Get Key
+with open("key/public","rb") as f:
+    public_key = pickle.load(f)
+with open("key/private","rb") as f:
+    private_key = pickle.load(f)
 
 # Encrypt
 encrypted_number_list = lib.getEncryptedNumber(secret_number_list, public_key)
 
 # Write
-with open("temp/encrypted","wb") as f:
+if not os.path.exists("./temp"):
+    os.makedirs("./temp")
+with open("temp/" + ID +"_encrypted","wb") as f:
     pickle.dump(encrypted_number_list, f)
+with open("temp/" + ID +"_header","wb") as f:
+    pickle.dump(header_list, f)
 
-print(f"there are {len(encrypted_number_list)} numbers and their type is {type(encrypted_number_list[0])}")
+# print(f"there are {len(encrypted_number_list)} numbers and their type is {type(encrypted_number_list[0])}")
+print(f"[ {filename} ] {len(encrypted_number_list)} numbers is encrypted")
