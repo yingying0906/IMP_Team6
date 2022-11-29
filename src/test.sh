@@ -1,6 +1,8 @@
+cd code
+
 # encrypt
-python3 encrypt.py eg_patient_1
-python3 encrypt.py eg_patient_2
+python3 encrypt.py 1
+python3 encrypt.py 2
 
 # split
 python3 split.py 1 10 6

@@ -5,6 +5,9 @@ import sys
 import os
 import pickle
 
+# change cwd
+os.chdir("..")
+
 # open file
 target_ID = sys.argv[1]
 with open("temp/" + target_ID + "_encrypted","rb") as f:

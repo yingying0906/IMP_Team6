@@ -3,6 +3,9 @@ import sys
 import pickle
 import os
 
+# change cwd
+os.chdir("..")
+
 # argument
 filename = sys.argv[1]
 

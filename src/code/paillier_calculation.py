@@ -4,14 +4,14 @@ from phe import paillier
 # (1)（type = list of ciphertext , index[0]=GOT , index[1]=GPT )
 # (2) public_key
 
-keyring = paillier.PaillierPrivateKeyring()
-public_key, private_key = paillier.generate_paillier_keypair(keyring)
-GOT=30
-GPT=1003
-encrypted_GOT = public_key.encrypt(GOT) 
-encrypted_GPT = public_key.encrypt(GPT) 
-
-encrypted_number_list= [ paillier.EncryptedNumber.ciphertext(encrypted_GOT),paillier.EncryptedNumber.ciphertext(encrypted_GPT)]
+#keyring = paillier.PaillierPrivateKeyring()
+#public_key, private_key = paillier.generate_paillier_keypair(keyring)
+#GOT=30
+#GPT=1003
+#encrypted_GOT = public_key.encrypt(GOT) 
+#encrypted_GPT = public_key.encrypt(GPT) 
+#
+#encrypted_number_list= [ paillier.EncryptedNumber.ciphertext(encrypted_GOT),paillier.EncryptedNumber.ciphertext(encrypted_GPT)]
 
 
 ################################################################################################################################################
@@ -63,10 +63,10 @@ def GOT_GPT_calc(encrypted_number_list,public_key):
 
 #檢查結果
 
-encrypted_result = GOT_GPT_calc(encrypted_number_list,public_key)
-decrypted_result = [private_key.decrypt(x) for x in encrypted_result]
-
-print(decrypted_result)
+#encrypted_result = GOT_GPT_calc(encrypted_number_list,public_key)
+#decrypted_result = [private_key.decrypt(x) for x in encrypted_result]
+#print("[ correct answer ]")
+#print(decrypted_result)
 
 
 

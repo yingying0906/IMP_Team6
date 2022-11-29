@@ -2,6 +2,9 @@ import numpy as np
 import sys
 import csv
 
+# change cwd
+os.chdir("..")
+
 filename = sys.argv[1]
 with open(filename,'r') as f:
     reader = csv.reader(f)

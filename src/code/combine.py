@@ -4,6 +4,9 @@ import os
 import shamirs
 import pickle
 
+# change cwd
+os.chdir("..")
+
 # argument
 target_ID = sys.argv[1]
 target = sys.argv[2] # retrive which number
