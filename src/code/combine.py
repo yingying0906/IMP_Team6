@@ -21,7 +21,7 @@ for i in range(num_shares):
     file_list.append(i)
 
 # randomly pick files
-pick_num = random.sample(range(0, len(file_list)), 5)
+pick_num = random.sample(range(0, len(file_list)), pick)
 pick_list = []
 for i in pick_num:
     path = "database/DB_" + str(i) + "/" + target_ID + "_" + target + "_share_" + str(i)
