@@ -9,7 +9,7 @@ python3 combine.py 0 7
 python3 decrypt.py 0
 
 # combine and decrypt 2nd number
-python3 combine.py 1 8
+python3 combine.py 1 5
 python3 decrypt.py 1
 
 # combine and decrypt 3rd number
