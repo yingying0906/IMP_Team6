@@ -31,7 +31,7 @@ while getopts ':i:n:t:p:' OPT; do
 done
 
 # no argument
-[[ "$no_args" == "true" ]] && { usage; exit 1; }
+[ "$no_args" == "true" ] && { usage; exit 1; }
 
 # encrypt
 python3 encrypt.py $PATH_d $ID 

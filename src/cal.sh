@@ -22,7 +22,7 @@ while getopts ':i:' OPT; do
 done
 
 # no argument
-[[ "$no_args" == "true" ]] && { usage; exit 1; }
+[ "$no_args" == "true" ] && { usage; exit 1; }
 
 # computate 
 python3 computation.py $ID
