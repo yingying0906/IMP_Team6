@@ -22,7 +22,6 @@ while getopts ':i:' OPT; do
 done
 
 # no argument
-# no argument
 if [ "$no_args" == "true" ]
 then
     usage; exit 1;
