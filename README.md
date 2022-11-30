@@ -20,18 +20,26 @@ python -m pip install shamirs
 
 ### add.sh
 
-add the specific data in the database (encrypt and split)
+Add specified data in the database (encrypt and split)
 
 ```
-sh add.sh [Patient ID] [Number of shares] [Threshold]
+sh add.sh...
+Options:
+    -i        Patient ID
+    -n        Number of shares need to split
+    -t        Minimum number of shares need to combine
 ```
 
 ### get.sh
 
-get the combined file of specific data
+Fetch and combine the splitted data to retrieve the original encrypted data
 
 ```
-sh get.sh [Patient ID] [Header] [Number of shares]
+sh get.sh...
+Options:
+    -i        Patient ID
+    -h        Header of data needed to combine
+    -t        Number of shares needed to combine
 ```
 
 ### cal.sh

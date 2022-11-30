@@ -46,4 +46,4 @@ with open("temp/" + ID +"_header","wb") as f:
     pickle.dump(header_list, f)
 
 # print(f"there are {len(encrypted_number_list)} numbers and their type is {type(encrypted_number_list[0])}")
-print(f"[ {filename} ] {len(encrypted_number_list)} numbers is encrypted")
+print(f"[ ID {filename} ] {len(encrypted_number_list)} numbers is encrypted")
