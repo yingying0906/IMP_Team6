@@ -88,6 +88,12 @@ Decrypt file
 python3 decrypt.py [ID] [Header]
 ```
 
+### Transfer a csv into data files
+
+```
+python3 read_csv.py [filename]
+```
+
 ## Shell script
 
 ### remove.sh
