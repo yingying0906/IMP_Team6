@@ -44,10 +44,12 @@ Options:
 
 ### cal.sh
 
-calculate the combined data
+Use the combined encrypted data to carry out calculation
 
 ```
-sh cal.sh [Patient ID]
+sh cal.sh...
+Options:
+    -i        Patient ID
 ```
 
 ## Individual use
