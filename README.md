@@ -11,7 +11,7 @@ pip install phe
 ```
 
 ```
-python -m pip install shamirs
+python3 -m pip install shamirs
 ```
 
 # Usage
