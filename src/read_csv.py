@@ -5,6 +5,7 @@ import os
 
 # argument
 filename = sys.argv[1]
+num = int(sys.argv[2])
 
 # open folder
 if not os.path.exists(f"./data/{filename[:-4]}"):
@@ -28,7 +29,7 @@ with open(filename,'r') as f:
     # Get 100 patients data
     for rows in reader:
         # break statement
-        if(int(rows[0]) == 100):
+        if(int(rows[0]) == num+1):
             break
         #print(rows)
 

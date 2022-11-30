@@ -119,6 +119,6 @@ A demostration of computation process (encrypt, split, combine, calculate)
 A demostration of patient_dataset (encrypt, split, combine, calculate)
 
 ```
-python3 read_csv.py patient_dataset.csv
-sh test3.sh patient_dataset
+python3 read_csv.py patient_dataset.csv [number_of_patient]
+sh test3.sh patient_dataset [number_of_patient]
 ```
