@@ -6,29 +6,30 @@ import os
 # change cwd
 os.chdir("..")
 
-# argument
+# Get argument
 filename = sys.argv[1]
 
 # list
-secret_number_list = []
 header_list = []
+secret_number_list = []
 
-# Open file
+# Make directory "data"
 if not os.path.exists("./data"):
     os.makedirs("./data")
 
-with open("data/" + filename,"r") as f:
+# Open data
+with open(f"data/{filename}","r") as f:
     fr = f.read()
-    byline = fr.split("\n")
+    byline = fr.split("\n") # split by newline
     for i in byline:
-        byspace = i.split(" ")
+        byspace = i.split(" ") # split by space
         if(byspace[0] == "ID"):
             ID = byspace[1]
         else:
             header_list.append(byspace[0])
             secret_number_list.append(int(byspace[1]))
 
-# Get Key
+# Open Key files
 with open("key/public","rb") as f:
     public_key = pickle.load(f)
 with open("key/private","rb") as f:
@@ -37,13 +38,17 @@ with open("key/private","rb") as f:
 # Encrypt
 encrypted_number_list = lib.getEncryptedNumber(secret_number_list, public_key)
 
-# Write
+# Make directory "temp"
 if not os.path.exists("./temp"):
     os.makedirs("./temp")
-with open("temp/" + ID +"_encrypted","wb") as f:
+
+# Write encrypted data
+with open(f"temp/{ID}_encrypted","wb") as f:
     pickle.dump(encrypted_number_list, f)
-with open("temp/" + ID +"_header","wb") as f:
+
+# Write the header of the encrypted data
+with open(f"temp/{ID}_header","wb") as f:
     pickle.dump(header_list, f)
 
-# print(f"there are {len(encrypted_number_list)} numbers and their type is {type(encrypted_number_list[0])}")
+# Terminal
 print(f"[ ID {filename} ] {len(encrypted_number_list)} numbers is encrypted")

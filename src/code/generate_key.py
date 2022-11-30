@@ -16,4 +16,5 @@ with open("key/public","wb") as f:
 with open("key/private","wb") as f:
     pickle.dump(private_key, f)
 
+# Terminal Notification
 print(f" Keys are generated ")
