@@ -7,7 +7,8 @@ import os
 os.chdir("..")
 
 # Get argument
-filename = sys.argv[1]
+path = sys.argv[1]
+filename = sys.argv[2]
 
 # list
 header_list = []
@@ -18,16 +19,17 @@ if not os.path.exists("./data"):
     os.makedirs("./data")
 
 # Open data
-with open(f"data/{filename}","r") as f:
+with open(f"data/{path}/{filename}","r") as f:
     fr = f.read()
     byline = fr.split("\n") # split by newline
     for i in byline:
         byspace = i.split(" ") # split by space
-        if(byspace[0] == "ID"):
-            ID = byspace[1]
-        else:
-            header_list.append(byspace[0])
-            secret_number_list.append(int(byspace[1]))
+        if(len(byspace) != 1):
+            if(byspace[0] == "ID"):
+                ID = byspace[1]
+            else:
+                header_list.append(byspace[0])
+                secret_number_list.append(int(byspace[1]))
 
 # Open Key files
 with open("key/public","rb") as f:

@@ -28,6 +28,7 @@ Options:
     -i        Patient ID
     -n        Number of shares need to split
     -t        Minimum number of shares need to combine
+    -p        Path of the data
 ```
 
 ### get.sh
@@ -59,7 +60,7 @@ Options:
 Put the file you want to encrypt in the directory `data`
 
 ```
-python3 encrypt.py [filename]
+python3 encrypt.py [path] [filename]
 ```
 
 ### Split encrypted file
@@ -106,3 +107,12 @@ A demostration of complete process (encrypt, split, combine, decrypt)
 A demostration of computation process (encrypt, split, combine, calculate)
 
 > Recommend run `remove.sh` before using test.sh or test2.sh
+
+### test3.sh
+
+A demostration of patient_dataset (encrypt, split, combine, calculate)
+
+```
+python3 read_csv.py patient_dataset.csv
+sh test3.sh patient_dataset
+```
