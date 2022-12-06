@@ -1,0 +1,344 @@
+[ ID 1 ] The data is splitted into 3 shares with threshold 2
+split 3 2 0.047658681869506836
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 3 2 0.8458414077758789
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 3 3 2.355032444000244
+[ ID 1 ] The data is splitted into 3 shares with threshold 3
+split 3 3 0.047120094299316406
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 3 3 2.345247983932495
+[ ID 1 ] The data is splitted into 4 shares with threshold 2
+split 4 2 0.04703640937805176
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 4 2 1.517655849456787
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 4 3 3.04632830619812
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 4 4 7.33560037612915
+[ ID 1 ] The data is splitted into 4 shares with threshold 3
+split 4 3 0.047942161560058594
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 4 3 3.0296051502227783
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 4 4 5.979763031005859
+[ ID 1 ] The data is splitted into 4 shares with threshold 4
+split 4 4 0.047690629959106445
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 4 4 5.973343372344971
+[ ID 1 ] The data is splitted into 5 shares with threshold 2
+split 5 2 0.048249006271362305
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 5 2 1.5204086303710938
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 5 3 3.025864362716675
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 5 4 6.034778594970703
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 5 5 10.502426147460938
+[ ID 1 ] The data is splitted into 5 shares with threshold 3
+split 5 3 0.048276424407958984
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 5 3 3.073991298675537
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 5 4 6.73997163772583
+[ ID 1 ] The data is splitted into 3 shares with threshold 2
+split 3 2 0.04807901382446289
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 3 2 3.5464835166931152
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 3 3 5.528090476989746
+[ ID 1 ] The data is splitted into 3 shares with threshold 3
+split 3 3 0.04830312728881836
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 3 3 7.669506788253784
+[ ID 1 ] The data is splitted into 4 shares with threshold 2
+split 4 2 0.04686331748962402
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 4 2 2.0785443782806396
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 4 3 3.501204252243042
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 4 4 16.60659885406494
+[ ID 1 ] The data is splitted into 4 shares with threshold 3
+split 4 3 0.048395633697509766
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 4 3 7.585440635681152
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 4 4 15.723340272903442
+[ ID 1 ] The data is splitted into 4 shares with threshold 4
+split 4 4 0.048230886459350586
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 4 4 12.079115867614746
+[ ID 1 ] The data is splitted into 5 shares with threshold 2
+split 5 2 0.0473482608795166
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 5 2 2.010413408279419
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 5 3 5.4314069747924805
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 5 4 13.616184711456299
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 5 5 24.95207953453064
+[ ID 1 ] The data is splitted into 5 shares with threshold 3
+split 5 3 0.04827308654785156
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 5 3 3.350039005279541
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 5 4 15.315830707550049
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 5 5 21.22106957435608
+[ ID 1 ] The data is splitted into 5 shares with threshold 4
+split 5 4 0.048471689224243164
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 5 4 11.43558406829834
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 5 5 20.220549821853638
+[ ID 1 ] The data is splitted into 5 shares with threshold 5
+split 5 5 0.053818464279174805
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 5 5 20.371044635772705
+[ ID 1 ] The data is splitted into 6 shares with threshold 2
+split 6 2 0.04692673683166504
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 6 2 2.0353500843048096
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 6 3 5.5163328647613525
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 6 4 15.42445707321167
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 6 5 22.763570547103882
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 6 6 35.634671211242676
+[ ID 1 ] The data is splitted into 6 shares with threshold 3
+split 6 3 0.048261404037475586
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 6 3 8.874752044677734
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 6 4 12.935754537582397
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 6 5 22.715721607208252
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 6 6 34.91652584075928
+[ ID 1 ] The data is splitted into 6 shares with threshold 4
+split 6 4 0.05002570152282715
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 6 4 15.799847602844238
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 6 5 22.760103225708008
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 6 6 34.59912109375
+[ ID 1 ] The data is splitted into 6 shares with threshold 5
+split 6 5 0.0630338191986084
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 6 5 23.161964893341064
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 6 6 35.42125487327576
+[ ID 1 ] The data is splitted into 6 shares with threshold 6
+split 6 6 0.06330442428588867
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 6 6 35.291465520858765
+[ ID 1 ] The data is splitted into 7 shares with threshold 2
+split 7 2 0.047692298889160156
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 7 2 3.474755048751831
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 7 3 7.58062481880188
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 7 4 16.24222469329834
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 7 5 26.290061950683594
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 7 6 40.229119062423706
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 7 7 54.00770854949951
+[ ID 1 ] The data is splitted into 7 shares with threshold 3
+split 7 3 0.04995274543762207
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 7 3 7.014144659042358
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 7 4 18.46138095855713
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 7 5 25.57137894630432
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 7 6 40.0292489528656
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 7 7 53.8383526802063
+[ ID 1 ] The data is splitted into 7 shares with threshold 4
+split 7 4 0.05065512657165527
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 7 4 17.224588632583618
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 7 5 25.789928197860718
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 7 6 40.35237956047058
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 7 7 54.59387159347534
+[ ID 1 ] The data is splitted into 7 shares with threshold 5
+split 7 5 0.05338239669799805
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 7 5 29.218164443969727
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 7 6 42.22705364227295
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 7 7 54.78028202056885
+[ ID 1 ] The data is splitted into 7 shares with threshold 6
+split 7 6 0.054329872131347656
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 7 6 41.692769289016724
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 7 7 54.43635010719299
+[ ID 1 ] The data is splitted into 7 shares with threshold 7
+split 7 7 0.05707669258117676
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 7 7 55.55739712715149
+[ ID 1 ] The data is splitted into 8 shares with threshold 2
+split 8 2 0.05222487449645996
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 8 2 1.409423828125
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 8 3 7.40225076675415
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 8 4 18.575774669647217
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 8 5 25.15815281867981
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 8 6 45.30574989318848
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 8 7 56.62903714179993
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 8 8 79.6351523399353
+[ ID 1 ] The data is splitted into 8 shares with threshold 3
+split 8 3 0.05568099021911621
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 8 3 6.959223747253418
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 8 4 17.27172327041626
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 8 5 28.59689497947693
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 8 6 42.262879371643066
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 8 7 58.251182079315186
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 8 8 78.55767798423767
+[ ID 1 ] The data is splitted into 8 shares with threshold 4
+split 8 4 0.05426383018493652
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 8 4 13.45274829864502
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 8 5 22.38195562362671
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 8 6 43.09871315956116
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 8 7 60.868223905563354
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 8 8 78.23300194740295
+[ ID 1 ] The data is splitted into 8 shares with threshold 5
+split 8 5 0.0544428825378418
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 8 5 25.10694670677185
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 8 6 36.914661169052124
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 8 7 60.48209571838379
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 8 8 78.31440353393555
+[ ID 1 ] The data is splitted into 8 shares with threshold 6
+split 8 6 0.0530393123626709
+[ ID 1 ] The shares of GPT are combined
+[ ID 1 ] The shares of GOT are combined
+combine 8 6 45.80351424217224
+[ ID 1 ] The shares of GPT are combined
