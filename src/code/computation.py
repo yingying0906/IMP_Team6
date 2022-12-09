@@ -31,3 +31,6 @@ encrypted_result = pc.GOT_GPT_calc(encrypted_data_list, public_key)
 decrypted_result = [private_key.decrypt(x) for x in encrypted_result]
 print(f"[ ID {target_ID} ]")
 print(str(decrypted_result))
+
+# Terminal
+print(f"[ ID {target_ID} ] The shares of {target} are combined: {combine_s}")

@@ -4,6 +4,9 @@ import shamirs
 import sys
 import os
 import pickle
+from database_service import DatabaseService
+
+database = DatabaseService()
 
 # change cwd
 os.chdir("..")
@@ -33,11 +36,22 @@ for i in range(N):
 
 # Write to the DB
 for i in range(N):
+    #path1 = "database/DB_" + str(i) + "/" + target_ID + "_"
+    data_pack = {}
+    data_pack["id"] = int(target_ID)
+    for j in range(len(shares_list)):
+        data_pack[header_list[j]] = str(shares_list[j][i])
+    
+    database._write(data_pack, i)
+
+# Write to the DB
+for i in range(N):
     path1 = "database/DB_" + str(i) + "/" + target_ID + "_"
     for j in range(len(shares_list)):
         path2 = path1 + header_list[j] + "_share_" + str(i)
         with open(path2, "wb") as f:
             pickle.dump(shares_list[j][i], f)
+    
 
 # Terminal
 print(f"[ ID {target_ID} ] The data is splitted into {N} shares with threshold {T}") 

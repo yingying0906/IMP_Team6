@@ -54,3 +54,4 @@ with open(f"temp/{ID}_header","wb") as f:
 
 # Terminal
 print(f"[ ID {filename} ] {len(encrypted_number_list)} numbers is encrypted")
+print(encrypted_number_list)
