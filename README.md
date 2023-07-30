@@ -20,7 +20,7 @@ python3 -m pip install cherrypy
 
 # Usage
 
-## Combined use
+## Ready-to-use script
 
 ### add.sh
 
@@ -57,7 +57,7 @@ Options:
     -i        Patient ID
 ```
 
-## Individual use
+## Standalone use
 
 ### Encrypt file
 
@@ -109,21 +109,11 @@ sh remove.sh
 ```
 
 ## Script for testing
+
 ### test.sh
-
-A demostration of complete process (encrypt, split, combine, decrypt)
-
-### test2.sh
-
-A demostration of computation process (encrypt, split, combine, calculate)
-
-> Recommend run `remove.sh` before using test.sh or test2.sh
-
-### test3.sh
 
 A demostration of patient_dataset (encrypt, split, combine, calculate)
 
 ```
-python3 read_csv.py patient_dataset.csv [number_of_patient]
 sh test3.sh patient_dataset [number_of_patient]
 ```
