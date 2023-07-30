@@ -14,6 +14,10 @@ pip install phe
 python3 -m pip install shamirs
 ```
 
+```
+python3 -m pip install cherrypy
+```
+
 # Usage
 
 ## Combined use
@@ -104,6 +108,7 @@ Delete all files except original data in `data` and keys in `key`
 sh remove.sh
 ```
 
+## Script for testing
 ### test.sh
 
 A demostration of complete process (encrypt, split, combine, decrypt)
