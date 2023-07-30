@@ -1,5 +1,5 @@
 # change cwd
-cd code
+cd ../code
 
 # check usage
 no_args="true"

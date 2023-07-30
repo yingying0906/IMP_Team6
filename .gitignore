@@ -1,3 +1,7 @@
 
 src/key/private
 src/key/public
+src/combine/
+src/data
+src/database
+src/temp

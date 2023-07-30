@@ -28,6 +28,6 @@ with open("key/private", "rb") as f:
 decrypted_number_list = lib.getDecryptedNumber(combine_list, public_key, private_key) 
 
 # Terminal
-print(f"[ patient_ID {patient_ID} ] {header} is ", end = '')
-for number in decrypted_number_list:
-    print(number)
+#print(f"[ patient_ID {patient_ID} ] {header} is ", end = '')
+#for number in decrypted_number_list:
+    #print(number)

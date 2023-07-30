@@ -52,4 +52,4 @@ with open(f"combine/{target_ID}_combined_{target}", "wb") as f:
 
 # Terminal
 #print(f"[ ID {target_ID} ] The shares of {target} are combined: {combine_s}")
-print(f"[ ID {target_ID} ] The shares of {target} are combined.")
+#print(f"[ ID {target_ID} ] The shares of {target} are combined.")

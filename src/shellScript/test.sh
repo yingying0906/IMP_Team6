@@ -1,9 +1,12 @@
-cd code
+cd ../code
 
 # generate key
 python3 generate_key.py
 
 cd ..
+# file convert
+python3 read_csv.py patient_dataset.csv $2
+cd shellScript
 
 # add data to the db
 for patient in $(seq 0 $2)

@@ -54,4 +54,4 @@ for i in range(N):
     
 
 # Terminal
-print(f"[ ID {target_ID} ] The data is splitted into {N} shares with threshold {T}") 
+#print(f"[ ID {target_ID} ] The data is splitted into {N} shares with threshold {T}") 
